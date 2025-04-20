@@ -1,0 +1,112 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production builds
+/frontend/build/
+/frontend/dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-*
+.project
+.settings/
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+*.tsbuildinfo
+.next/
+out/
+
+# Testing
+/coverage
+
+# Misc
+.DS_Store
+thumbs.db
+*.zip
+*.tar.gz
+
+# Supabase
+.supabase/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# Sistema operativo
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDEs y editores adicionales
+*.code-workspace
+.vscode-test/
+
+# Visual Studio Code server (si usas GitHub Codespaces o SSH remotos)
+.vscode-server/
+.vscode-remote/
+
+# Mac y Linux
+*.orig
+*.bak
+
+# npm logs temporales
+npm-debug.log*
+yarn.lock.backup*
+
+# archivos de grabación o captura
+*.webm
+*.mp4
+*.mov
+*.ogg
+*.wav
+*.avi
+
+# Archivos de imágenes temporales o exportadas
+*.psd
+*.xcf
+*.png~
+*.svg~
+*~.png
+
+# Archivos de producción accidentalmente agregados
+build/
+dist/
+
+# EditorConfig backups
+*.editorconfig-backup
+
+# vite
+vite.config.ts
+vite.config.js
